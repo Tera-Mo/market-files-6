@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* الهيدر */
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    border-radius: 0 0 15px 15px;
+    transition: all 0.3s ease;
+    border: solid 0.8px black;
+}
+
+/* Add a class for when the header is scrolled */
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    border-radius: 0 0 2px 2px;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+
+/* Add a class for when the header is scrolled */
+header.scrolled {
+    padding: 10px 200px;
+    background-color: white;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    border: #f0f0f0;
+    transition: 0.3s;
+}
+header{
+    float: right;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    border: #f0f0f0;
+    transition: 0.3s;
+}
+.add-to-cart {
+    display: inline-block;
+  font-family: 'Tektur', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 6px;
+  background-color: #3a6cf4;
+  color: white;
+  border: 2px solid #3a6cf4;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.add-to-cart:hover{
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+
+.navigation a:hover{
+    color: #ff0000;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins,sans-serif;
+}
+
+
+.small-contaier{
+    max-width: 0%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.single-product{
+    margin-top: 80px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-around;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50%;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single-product .col-2 img{
+    padding: 0%;
+}
+.single-product .col-2{
+   padding: 20px; 
+}
+.col-2{
+    flex-basis: 50%;
+    min-height: 300px;
+}
+.col-2 h1{
+    font: size 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #3a6cf4;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-weight:bold ;
+}
+.single-product input{
+    width: 60px;
+    height: 30px;
+    padding-left:25px ;
+    font-size: 15px;
+    margin-right: 10px;
+    border: 2px solid  #3a6cf4;
+}
+.btn{
+    display: inline-block;
+    background: green;
+     color: #fff;
+     padding: 8px 30px;
+     margin: 30px 0;
+     border-radius: 30px;
+     transform: scaleX(1);
+     transition: 0.7s;
+}
+.btn:hover{
+    background: rgb(37, 212, 37);
+}
+
+
